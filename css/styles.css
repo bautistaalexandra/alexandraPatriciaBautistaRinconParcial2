@@ -1,0 +1,90 @@
+:root {
+  --color-principal: #6f42c1;
+  --color-secundario: #20c997;
+  --color-fondo: #f3f3f3;
+  --color-texto: #333;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-size: 1.1rem;
+}
+
+.navbar {
+  background-color: var(--color-principal) !important;
+}
+
+.nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-left: 15px;
+}
+
+.nav-link.active {
+  color: var(--color-secundario) !important;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--color-principal);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5936a9;
+}
+
+.btn-info {
+  background-color: var(--color-secundario);
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #1aaa85;
+}
+
+footer {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.seccion-inicio {
+  background-color: white; 
+  padding: 50px 0;
+}
+.seccion-historia {
+  background-color: white; 
+  padding: 50px 0;
+}
+.seccion-contacto{
+  background-color:white ;
+  padding: 50px 0;
+}

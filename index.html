@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Softza</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarDrapps" data-bs-offset="70" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="navbarDrapps" class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white d-flex align-items-center" href="#">
+        <img src="img/logo.png" alt="Softza" width="40" height="40" class="me-2" />
+        <strong style="text-transform: uppercase;">Softza</strong>
+      </a>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#acerca" role="button" data-bs-toggle="dropdown">¿Quiénes somos?</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#historia">Nuestra historia</a></li>
+            </ul>
+          </li>          
+          <button class="btn btn-info" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRedes">MISIÓN Y VISIÓN</button>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id=" inicio">
+
+    <!-- Inicio de Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide1.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider 4.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider 5.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </section>
+  
+
+  <!-- Acerca de -->
+  <section id="acerca" class="seccion-acerca" >
+    <div class="container">
+      <h2 class="text-center text-primary">¿Quiénes somos?</h2>
+    <p class="justificado">
+      En <strong>Softza</strong> somos un equipo apasionado por la tecnología y la innovación. 
+      Nacimos con la visión de transformar ideas en soluciones digitales que marquen la diferencia. 
+      Nos especializamos en el desarrollo de software a la medida, aplicaciones móviles, 
+      plataformas web y herramientas inteligentes que ayudan a empresas y personas a adaptarse
+      a un mundo cada vez más conectado.
+    </p>
+    <p class="justificado">
+      Creemos en el poder de la colaboración, la creatividad y el aprendizaje continuo. 
+      Por eso, trabajamos día a día para ofrecer productos funcionales, intuitivos y escalables, 
+      que respondan a las verdaderas necesidades de nuestros clientes.
+    </p><br>
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="seccion-historia">
+  <div class="container">
+    <h2 class="text-center text-primary">Nuestra historia</h2>
+    <p class="justificado"> Softza nació en el año 2022, cuando un grupo de jóvenes apasionados por 
+    la tecnología decidió unir sus conocimientos para crear algo diferente. Todo comenzó en una sala pequeña, 
+    con una sola computadora, muchas ideas y el sueño de cambiar el mundo a través del software.</p>
+
+    <!-- inicion de la ventana modal uno -->
+    <div class="container mt-3">
+      <h3>La tecnologia de Softza</h3>
+      <p>Puede ver un video de la gran tecnologia que la empresa tiene, te encantara mucho.</p>
+      
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Ver video
+      </button>
+    </div>
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Bienvenidos a la tecnologia de Softza</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+
+            <video src="videos/video1.mp4" controls style="width: 100%;"></video>
+
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div><br>
+  </div>
+ 
+</section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="container">
+    <h2 class="text-center text-success">Lo que ofrecemos</h2>
+    <p class="justificado">
+      Nuestro portafolio de servicios incluye:
+    </p>
+    <ul class="justificado">
+      <li><strong>Diseño Web</strong>: Sitios atractivos, funcionales y responsivos.</li>
+      <li><strong>Aplicaciones móviles</strong>: Android y iOS adaptadas a tus necesidades.</li>
+      <li><strong>Marketing digital</strong>: Posicionamiento SEO y campañas publicitarias efectivas.</li>
+      <li><strong>Diseño gráfico</strong>: Identidad visual, logotipos, banners y más.</li>
+      <li><strong>Mantenimiento y soporte</strong>: Acompañamiento post-lanzamiento para garantizar calidad.</li>
+    </ul>
+    <div class="text-center mt-4">
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLeerMas">Puede Leer más dando en este pdf</button>
+    </div>
+  </section>
+
+  <!-- Modal Servicios -->
+  <div class="modal fade" id="modalLeerMas" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Servicios Softza</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justificado">
+          <iframe src="archivos/archivo1.pdf" frameborder="0" width="100%" height="500px"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contacto -->
+  <section id="contacto" class="seccion-contacto">
+    <div class="container">
+      <h2 class="text-center text-info">Contáctanos</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required />
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" required />
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-info">Enviar mensaje</button>
+      </div>
+    </form><br>
+    </div>
+  </section>
+
+  <!-- Offcanvas Redes -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRedes">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title"><strong>MISIÓN Y VISIÓN</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p><strong>Misión de Softza</strong></p>
+      <p>Desarrollar soluciones tecnológicas innovadoras y accesibles que impulsen la transformación digital de empresas y personas,
+       ofreciendo productos de alta calidad que mejoren la eficiencia, conectividad y experiencia del usuario.
+      </p>       
+      <p><strong>Visión de Softza</strong></p>
+      <P>Ser una empresa líder en el desarrollo de software inteligente en América Latina, 
+      reconocida por su compromiso con la innovación, la sostenibilidad y el crecimiento tecnológico de sus clientes.
+      </P>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Softza. Todos los derechos reservados por Alexandra Bautista Rincón .</p>
+  </footer>
+
+  <!-- JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
